@@ -1,0 +1,86 @@
+body, html {
+	background-color: transparent;
+    color: #3F3F3F;
+    letter-spacing: 6px;
+    margin: 0 auto;
+    font-family: "arial";
+	height: 100%;
+
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://steamusercontent-a.akamaihd.net/ugc/842587034918019612/FFA99C866B4EA6BC93D1B9664083DEB6BA1E3386/");
+
+    /* Full height */
+    height: 15%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    height: 40%; 
+}
+form, a, p {
+    margin-left: 5vw;
+	background-color: transparent;
+}
+
+h1, h2, h3 {
+    margin-left: 5vw;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+.input-field {
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 120%;
+    border:double black;
+}
+
+
+.input-button, a {
+    border-radius: 10px;
+    background-color: white;
+    font-size: 120%;
+    border:double black;
+    transition: all 0.1s;
+	margin: 10px;
+}
+
+.input-button:hover {
+    transition: all 0.1s;
+    transform: translateY(3px);
+    cursor: pointer;
+}
+
+.box {
+    background-color: white;
+    padding: 10px;
+    margin: 50px;
+	width: 80%;
+}
+
+.invalid {
+	color: red;
+}
+
+.image-container {
+    padding: 40px;
+    display: inline-block;
+}
+
+.images {
+    float: left;
+    width: 25%;
+}
+
